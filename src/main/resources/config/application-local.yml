@@ -28,11 +28,7 @@ spring:
     hibernate:
         ddl-auto: none  
 
-
-
 logging:
-  level:  
-    com.example.sampleapi: info 
-
+  config: classpath:log4j2.xml
 
 
